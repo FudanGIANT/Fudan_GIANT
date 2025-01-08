@@ -1,1 +1,6 @@
 theme: jekyll-theme-cayman
+defaults:
+  - scope:
+      path: "" # 应用于所有文件
+    values:
+      layout: default # 自动应用默认布局
