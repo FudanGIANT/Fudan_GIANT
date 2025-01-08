@@ -1,4 +1,1 @@
-# 基础路径
-baseurl: "/FUDAN_GIANT"  # 如果是项目网站，设置为项目名；如果是用户网站，可以留空
-permalink: pretty       # 生成美观的 URL（无 `.html` 后缀）
 theme: jekyll-theme-cayman
