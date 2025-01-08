@@ -1,4 +1,9 @@
-# Publication
-[Latest publications](/FUDAN_GIANT/publication/publication.html)
+---
+layout: default
+title: Publication
+---
 
-[Other latest publications](/FUDAN_GIANT/publication/pub_other.html)
+# Publication
+[Latest publications](/publication/publication.html)
+
+[Other latest publications](/publication/pub_other.html)
