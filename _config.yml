@@ -1,6 +1,7 @@
 theme: jekyll-theme-cayman
+markdown: kramdown
 defaults:
   - scope:
       path: "" # 应用于所有文件
     values:
-      layout: default # 自动应用默认布局
+      layout: default # 自动使用默认布局
