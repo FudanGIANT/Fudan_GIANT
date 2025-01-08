@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Zhiqian Xu"
+title: Zhiqian Xu
 ---
 
 # **Zhiqian Xu**

@@ -39,7 +39,7 @@ Yangjun Wu (Master, 2024) ByteDance Group
 [Our colorful life and memorable moments](/album/index.md).
 
 # Blog
-[Our blogs include tutorials and development logs](/blog/).
+[Our blogs include tutorials and development logs](/blog/index.md).
 
 # Tasks Management
 [Our tasks management](/tasks-manager/index.md).
