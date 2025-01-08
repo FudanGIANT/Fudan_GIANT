@@ -1,45 +1,27 @@
-const repoOwner = "FudanGIANT"; // 替换为你的 GitHub 用户名
-const repoName = "Fudan_GIANT"; // 替换为你的仓库名称
-const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/issues`;
-
-async function fetchTasks() {
-    try {
-        const response = await fetch(apiUrl);
-        const issues = await response.json();
-
+// 加载 tasks-manager/issues.json 数据并渲染任务列表
+fetch("issues.json")
+    .then((response) => response.json())
+    .then((data) => {
         const taskList = document.getElementById("task-list");
-        taskList.innerHTML = "";
+        taskList.innerHTML = ""; // 清空
 
-        issues.forEach(issue => {
+        data.forEach((task) => {
             const taskDiv = document.createElement("div");
-            taskDiv.className = `task ${issue.state}`;
+            taskDiv.style = "margin-bottom: 20px; padding: 15px; border: 1px solid #ddd; border-radius: 5px; background-color: #f9f9f9;";
 
-            const title = document.createElement("div");
-            title.className = "task-title";
-            title.textContent = issue.title;
-
-            const labels = issue.labels.map(label => {
-                const labelSpan = document.createElement("span");
-                labelSpan.className = "task-label";
-                labelSpan.textContent = label.name;
-                labelSpan.style.backgroundColor = `#${label.color}`;
-                return labelSpan;
-            });
-
-            const description = document.createElement("div");
-            description.textContent = issue.body;
-
-            taskDiv.appendChild(title);
-            labels.forEach(label => taskDiv.appendChild(label));
-            taskDiv.appendChild(description);
+            taskDiv.innerHTML = `
+                <h3>${task.title}</h3>
+                <p>${task.body || "No description provided"}</p>
+                <p><strong>Created:</strong> ${task.created_at}</p>
+                <p><strong>Last Updated:</strong> ${task.updated_at}</p>
+                <p><strong>Latest Comment:</strong> ${task.latest_comment.body || "No comments"}</p>
+                <a href="${task.html_url}" target="_blank">View on GitHub</a>
+            `;
 
             taskList.appendChild(taskDiv);
         });
-    } catch (error) {
+    })
+    .catch((error) => {
         console.error("Error fetching tasks:", error);
-        document.getElementById("task-list").textContent =
-            "无法加载任务，请稍后重试。";
-    }
-}
-
-fetchTasks();
+        document.getElementById("task-list").innerText = "Failed to load tasks.";
+    });

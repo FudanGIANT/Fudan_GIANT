@@ -1,36 +1,27 @@
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 20px;
 }
 
-#task-list {
-    margin-top: 20px;
+h1, h2 {
+    color: #333;
 }
 
-.task {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 10px;
+#password-input {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
-.task.open {
-    background-color: #f9f9f9;
-}
-
-.task.closed {
-    background-color: #d4edda;
-}
-
-.task-title {
-    font-weight: bold;
-    font-size: 16px;
-}
-
-.task-label {
-    font-size: 12px;
-    color: white;
-    background: #007bff;
-    padding: 2px 6px;
-    border-radius: 3px;
+button:hover {
+    background-color: #0056b3;
 }
