@@ -13,7 +13,6 @@ We are focuing on:
 ## Principal Investigator
 
 [Simin Wang](https://imp.fudan.edu.cn/e9/ae/c10030a387502/page.htm)（mail: wangsimin@fudan.edu.cn）  
-https://imp.fudan.edu.cn/e9/ae/c10030a387502/page.htm  
 
 ## Current Group Members 
 [Bowen Kan](/member/bowenkan.md) (Doctor Student)  
