@@ -1,7 +1,19 @@
-theme: jekyll-theme-cayman
-markdown: kramdown
+theme: jekyll-theme-cayman # 设置主题
+markdown: kramdown         # 使用默认 Markdown 解析器
+plugins:                   # 确保 Jekyll 能正确处理 Pages
+  - jekyll-feed
+
+# 设置默认布局
 defaults:
   - scope:
       path: "" # 应用于所有文件
     values:
-      layout: default # 自动使用默认布局
+      layout: default
+
+# 指定 URL 和基本路径（如需要）
+baseurl: "" # 如果你在根目录下发布，可以留空
+url: "https://fudangiant.github.io" # 替换为你的 GitHub Pages URL
+
+# 其他选项（如需要）
+title: "Fudan_GIANT"
+description: "Your Site Description"
