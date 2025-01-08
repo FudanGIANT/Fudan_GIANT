@@ -16,8 +16,8 @@ We are focuing on:
 https://imp.fudan.edu.cn/e9/ae/c10030a387502/page.htm  
 
 ## Current Group Members 
-[Bowen Kan](/FUDAN_GIANT/member/bowenkan) (Doctor Student)  
-[Bowen Zhao](/FUDAN_GIANT/member/bowenzhao) (Master Student)  
+[Bowen Kan](/FUDAN_GIANT/member/bowenkan.md) (Doctor Student)  
+[Bowen Zhao](/FUDAN_GIANT/member/bowenzhao.md) (Master Student)  
 Daiyou Xie (Doctor Student)  
 Jiexuan Zhou (Master Student)  
 Leilei Zhu (Doctor Student)  
