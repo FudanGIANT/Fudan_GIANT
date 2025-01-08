@@ -12,8 +12,8 @@ We are focuing on:
 
 ## Principal Investigator
 
-[Simin Wang](http://www.hfnl.ustc.edu.cn/detail?id=21014)（mail: wangsimin@fudan.edu.cn）  
-https://faculty.ustc.edu.cn/shanghonghui/en/index.htm  
+[Simin Wang](https://imp.fudan.edu.cn/e9/ae/c10030a387502/page.htm)（mail: wangsimin@fudan.edu.cn）  
+https://imp.fudan.edu.cn/e9/ae/c10030a387502/page.htm  
 
 ## Current Group Members 
 [Bowen Kan](/FUDAN_GIANT/member/bowenkan) (Doctor Student)  
