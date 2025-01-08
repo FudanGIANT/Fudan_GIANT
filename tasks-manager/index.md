@@ -17,7 +17,7 @@ title: Task Manager
 
 <script src="assets/script.js"></script>
 <script>
-    const PASSWORD = "your_password"; // Replace with your desired password
+    const PASSWORD = "200438"; // Replace with your desired password
 
     function verifyPassword() {
         const input = document.getElementById("password-input").value;
