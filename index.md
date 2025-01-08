@@ -1,3 +1,8 @@
+---
+layout: default
+title: Fudan GIANT
+---
+
 # Home
 We are Group of Innovative Advances in Nuclear Theory (GIANT) in Fudan University.
 
