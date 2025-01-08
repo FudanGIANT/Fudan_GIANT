@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Bowen Kan"
+---
+
 **Bowen Kan**  
 **Phone:** +8618744600933  
 **Email:** kanbowen17@163.com  
