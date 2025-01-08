@@ -20,7 +20,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.API_TOKEN }}
         run: |
-          echo "[" > /tasks-manager/issues.json
+          echo "[" > tasks-manager/issues.json
           issues=$(curl -H "Authorization: token $GITHUB_TOKEN" \
                https://api.github.com/repos/FudanGIANT/Fudan_GIANT/issues)
           count=$(echo "$issues" | jq '. | length') # 获取 Issue 数量
@@ -31,19 +31,19 @@ jobs:
             issue_with_comment=$(echo $issue | jq -c --argjson comment "$latest_comment" '. + {latest_comment: $comment}')
             index=$((index + 1))
             if [ $index -eq $count ]; then
-              echo "$issue_with_comment" >> /tasks-manager/issues.json # 最后一条记录后不加逗号
+              echo "$issue_with_comment" >> tasks-manager/issues.json # 最后一条记录后不加逗号
             else
-              echo "$issue_with_comment," >> /tasks-manager/issues.json # 其他记录后加逗号
+              echo "$issue_with_comment," >> tasks-manager/issues.json # 其他记录后加逗号
             fi
           done
-          echo "]" >> /tasks-manager/issues.json
+          echo "]" >> tasks-manager/issues.json
           echo "Fetched issues with comments:"
-          cat /tasks-manager/issues.json
+          cat tasks-manager/issues.json
 
       - name: Commit and push changes
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
-          git add /tasks-manager/issues.json
+          git add tasks-manager/issues.json
           git commit -m "Update issues.json with latest comments" || echo "No changes to commit"
           git push
