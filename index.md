@@ -1,10 +1,10 @@
 # Home
-We are a team to accelerate science discovery at HPC.  
+We are Group of Innovative Advances in Nuclear Theory (GIANT) in Fudan University.
 
 We are focuing on:
 
-- Nuclear Structure;
-- Nuclear Reaction;
+- Nuclear Structure Theory;
+- Nuclear Reaction Theory;
 - First-principles Nuclear Physics;
 
 
