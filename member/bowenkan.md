@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "Bowen Kan"
+title: Bowen Kan
+description: This is just another page
 ---
 
 **Bowen Kan**  
