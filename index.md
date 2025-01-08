@@ -23,7 +23,7 @@ Jiexuan Zhou (Master Student)
 Leilei Zhu (Doctor Student)  
 Pengyu Zhou (Master Student)  
 Yingxiang Gao (Undergraduate Student)  
-[Zhiqian Xu](/FUDAN_GIANT/member/zhiqianxu) (Doctor Student)  
+[Zhiqian Xu](/FUDAN_GIANT/member/zhiqianxu.md) (Doctor Student)  
 [Zhuozhao Xia](https://xiazhuozhao.com) (Master Student)  
 
 ## Previous Group Members
