@@ -36,13 +36,13 @@ Yangjun Wu (Master, 2024) ByteDance Group
 <!-- [Old version](https://quantumict.github.io/QuantumICT/publication/publications). -->
 
 # Album
-[Our colorful life and memorable moments](/album/index).
+[Our colorful life and memorable moments](/album/index.md).
 
 # Blog
 [Our blogs include tutorials and development logs](/blog/).
 
 # Tasks Management
-[Our tasks management](/tasks-manager/).
+[Our tasks management](/tasks-manager/index.md).
 
 <!-- # Group Meeting -->
 <!-- [Our group meeting records](https://quantumict.github.io/QuantumICT/group_meeting).-->

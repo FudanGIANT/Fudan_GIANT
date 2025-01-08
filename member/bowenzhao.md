@@ -1,5 +1,7 @@
-# Bowenzhao
-
+---
+layout: default
+title: Bowen Kan
+---
 **Email:** bowenzhao@mail.ustc.edu.cn
 
 ## Education
