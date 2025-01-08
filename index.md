@@ -41,5 +41,8 @@ Yangjun Wu (Master, 2024) ByteDance Group
 # Blog
 [Our blogs include tutorials and development logs](/FUDAN_GIANT/blog/).
 
+# Tasks Management
+[Our tasks management](/FUDAN_GIANT/tasks-manager/).
+
 <!-- # Group Meeting -->
 <!-- [Our group meeting records](https://quantumict.github.io/QuantumICT/group_meeting).-->
